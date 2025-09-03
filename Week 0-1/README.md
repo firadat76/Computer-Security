@@ -15,7 +15,7 @@ This repository will serve as the **course log**, where each week’s sessions, 
   - [Class 2 – Protocols & Lab Setup](#class-3--protocols--lab-setup)  
   - [Class 3 – Guest Speaker from PKCERT](#class-2--guest-speaker-from-pkcert)  
 - [Week 3 – Formal Course Launch](#week-3--formal-course-launch)  
-- [🌍 Summary](#-summary)  
+- [Summary](#-summary)  
 
 ---
 
@@ -29,7 +29,7 @@ Why this matters:
 - **Challenges:** Early awareness of evolving threats and professional dilemmas.  
 - **Foundation Building:** Motivation and readiness before deep technical labs.  
 
-👉 Week 0 answers the **why** before we dive into the **how**.  
+Week 0 answers the **why** before we dive into the **how**.  
 
 ---
 
@@ -87,7 +87,7 @@ From **Week 3 (Class 5)**, the structured course officially begins:
 
 ---
 
-## 🌍 Summary  
+## Summary  
 
 - **Week 0:** Orientation, opportunities, challenges, global perspective, hands-on intro.  
 - **Week 1:** National perspective with PKCERT, protocol overview, lab setup.  
