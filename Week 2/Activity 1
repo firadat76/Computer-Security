@@ -1,6 +1,3 @@
 Activity: SQL Injection Investigation with Burp Suite
 
-For this graded activity, you will act as an ethical security researcher analyzing the intentionally vulnerable Google Gruyere web application (https://google-gruyere.appspot.com/) to identify and demonstrate 
-SQL injection vulnerabilities using Burp Suite. Your task is to intercept HTTP requests, test input parameters for SQLi flaws using techniques such as union-based, error-based, and boolean-based injection, 
-and document one successful exploit. In a report, describe the vulnerable parameter, the payload used, the type of SQL injection performed, and the evidence of exploitation (e.g., database error messages, 
-unauthorized data retrieval, or authentication bypass).
+For this graded activity, you will act as an ethical security researcher analyzing the intentionally vulnerable Google Gruyere web application (https://google-gruyere.appspot.com/) to identify and demonstrate SQL injection vulnerabilities using Burp Suite. Your task is to intercept HTTP requests, test input parameters for SQLi flaws using techniques such as union-based, error-based, and boolean-based injection, and document one successful exploit. In a report, describe the vulnerable parameter, the payload used, the type of SQL injection performed, and the evidence of exploitation (e.g., database error messages, unauthorized data retrieval, or authentication bypass).
