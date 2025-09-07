@@ -1,0 +1,18 @@
+Setting up BurpSuite and FoxyProxy on Kali Linux (Firefox)
+
+Step 1:
+Checking Buprsuite
+1. Verify BurpSuite is Installed
+BurpSuite usually comes pre-installed in Kali. To confirm:
+   a. Open a terminal in Kali.  
+   b. Run the command:  
+   ```bash
+   burpsuite
+3. If BurpSuite launches, you’re good to go.
+4. If it does not start, install it.
+
+Step 2:
+Install FoxyProxy in firefox Browser
+
+Step 3:
+Configure FoxyProxy for BurpSuite
