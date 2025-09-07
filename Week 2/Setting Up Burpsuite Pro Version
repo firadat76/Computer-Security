@@ -1,0 +1,48 @@
+This is for setting up the pro version of Burpsuite:
+
+Step 1:run the following command
+
+sudo apt update && sudo apt install -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+
+Step 2:
+The License activator will have opened up, (If not, run it directly via Java -jar loader.jar present in the cloned github repo).
+Click the run button at the right side. a new launcher window will be opened and you will be opted to activate the license, choose manual activation.
+
+Step 3:
+Copy the license value from loader.jar, and paste it in the launcher window asking for a license.
+The launcher window will have generated an activation request, copy it into the window where you got the license (loader.jar).
+
+Step 4:
+An activation Response will have been generated, copy that and paste it into the launcher. After submitting burpsuitepro version will have been activated and you will be able to access it.
+
+
+
+An issue you may face is due to java openjdk22 not being present, to fix that follow the following steps.
+Step 1:
+go to https://jdk.java.net/archive/
+
+Step 2:
+Download the java version 22 openjdk.
+
+Step 3:
+extract jdk-22
+
+Step 4:
+Move/Copy jdk-22 to /usr/lib/jvm/ you will have some version of java already present there . (you might need root permissions to move/copy the jdk-22 folder there.)
+
+Step 5:
+Switch to root and execute the following commands.
+update-alternatives --install /usr/bin/java  java  /usr/lib/jvm/jdk-22/bin/java  2200
+update-alternatives --install /usr/bin/javac javac /usr/lib/jvm/jdk-22/bin/javac 2200
+update-alternatives --install /usr/bin/jar   jar   /usr/lib/jvm/jdk-22/bin/jar   2200
+
+Step 6:
+Run the following command and verify that java version 22 is the one chosen, if not select it and choose java version22 as the option.
+sudo update-alternatives --config java
+
+Step 7:
+Rerun the steps for installing Burpsuitepro and it should now install without any issues.
+
+
+
+For Refrence, you can check out this github repository: https://github.com/xiv3r/Burpsuite-Professional
